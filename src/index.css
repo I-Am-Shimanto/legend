@@ -12,5 +12,16 @@
 }
 
 body {
-  @apply bg-[#052128];
+  /* @apply bg-[#]; */
+  /* background-color: #052128; */
+}
+
+.banner_card{
+  background: linear-gradient(180deg,rgb(11, 49, 57) 100%, rgb(255, 255, 255) 0%);
+}
+
+#workflow{
+  background-image: url(../public/images/workflow.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
