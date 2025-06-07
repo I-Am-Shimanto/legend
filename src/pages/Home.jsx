@@ -1,16 +1,16 @@
-import React from 'react'
-import Banner from '../components/Banner'
-import Company from '../components/Company'
-import Workflow from '../components/Workflow'
+import React from "react";
+import Banner from "../components/Banner";
+import Company from "../components/Company";
+import Workflow from "../components/Workflow";
 
 const Home = () => {
   return (
-      <>
+    <>
       <Banner />
       <Company />
-      <Workflow/>
-      </>
-  )
-}
+      <Workflow />
+    </>
+  );
+};
 
-export default Home
+export default Home;
