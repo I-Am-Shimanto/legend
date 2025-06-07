@@ -24,4 +24,19 @@ body {
   background-image: url(../public/images/workflow.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.work_cont{
+  background-image: url(../public/images/workflow_light.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -20%;
+  left: 0;
+  opacity: 20%;
 }
