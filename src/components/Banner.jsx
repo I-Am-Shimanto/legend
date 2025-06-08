@@ -13,7 +13,11 @@ const Banner = () => {
         <div className="container">
           <div className="flex flex-col justify-center items-center">
             <HeadingBtn title="Get started today!" />
-            <h1 className="max-w-180 text-2xl sm:text-5xl md:text-6xl text-white text-center font-semibold font-inter leading-10 sm:leading-14 md:leading-16 py-4">
+            <h1
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="max-w-180 text-2xl sm:text-5xl md:text-6xl text-white text-center font-semibold font-inter leading-10 sm:leading-14 md:leading-16 py-4"
+            >
               Seamless integrations with your{" "}
               <TypeAnimation
                 sequence={[
@@ -29,7 +33,11 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </h1>
-            <p className="text-xl font-normal font-inter text-secondary leading-7.5 mb-12 text-center">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              className="text-xl font-normal font-inter text-secondary leading-7.5 mb-12 text-center"
+            >
               See how we help your team solve today’s biggest challenges.
             </p>
             <MainBtn title="Start your free trial" />

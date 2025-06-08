@@ -45,6 +45,3 @@ body {
   background: linear-gradient(180deg,rgb(24, 67, 75) 100%, rgb(255, 255, 255) 0%);
   z-index: 999;
 }
-a{
-  display: inline-block;
-}
