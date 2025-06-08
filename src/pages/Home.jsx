@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Company from "../components/Company";
 import Workflow from "../components/Workflow";
 import Solution from "../components/Solution";
+import Plan from "../components/Plan";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Company />
       <Workflow />
       <Solution/>
+      <Plan/>
     </>
   );
 };
