@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const WorkflowCard = ({ image, title, button, path = "/" }) => {
   return (
-    <div data-aos="flip-up" data-aos-duration="500">
+    <div data-aos="fade-up" data-aos-duration="1000">
       <div className="linear pt-4 px-8 pb-8 border border-[rgba(255,255,255,0.15)] rounded-3xl cursor-pointer hover:scale-101 hover:border-white duration-300">
         <img className=" mx-auto" src={image} alt="image" />
         <h2 className="text-2xl font-semibold font-inter text-white leading-7 py-8">
