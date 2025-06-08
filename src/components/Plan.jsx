@@ -136,6 +136,9 @@ const Plan = () => {
               </p>
             </div>
           </div>
+          <p className="mt-12 text-center text-base font-normal font-inter text-[#9EBAC1] leading-6">
+            *Yearly discount available on select plans.
+          </p>
         </div>
       </section>
     </>
