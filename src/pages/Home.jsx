@@ -4,6 +4,7 @@ import Company from "../components/Company";
 import Workflow from "../components/Workflow";
 import Solution from "../components/Solution";
 import Plan from "../components/Plan";
+import Clients from "../components/Clients";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Workflow />
       <Solution/>
       <Plan/>
+      <Clients/>
     </>
   );
 };
