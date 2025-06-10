@@ -1,4 +1,5 @@
 import React from "react";
+import ClientsCard from "../utils/ClientsCard";
 
 const Clients = () => {
   return (
@@ -13,7 +14,61 @@ const Clients = () => {
             about us!
           </h2>
         </div>
-        <div className="grid"></div>
+        <div className="grid grid-cols-3 px-31 gap-8">
+          <ClientsCard
+            body="“We’re looking for people who share our vision! most of our time used
+          to be taken up by most of alternate to help our employees.”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+          <ClientsCard
+            body="“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+          <ClientsCard
+            body="“Look for service suppliers that
+comply with this regulation,
+and as we look to create our
+website, this builder is just
+outstanding!”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+          <ClientsCard
+            body="“We’re looking for people who
+share our vision! most of our
+time used to be taken up by
+most of alternate
+administrative work whereas
+now we can focus on building
+out to help our employees.”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+          <ClientsCard
+            body="“This powerful tool eliminates
+the need to leave Salesforce to
+get things done as I can create
+a custom proposal with
+dynamic pricing tables, and get
+approval from my boss all
+within 36 minutes.”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+          <ClientsCard
+            body="“We’re looking for people who
+share our vision! most of our
+time used to be taken up by
+most of alternate
+administrative work whereas
+now we can focus on building
+out to help our employees.”"
+            image="images/client1.png"
+            title="Mark Zellers"
+          />
+        </div>
       </div>
     </section>
   );
