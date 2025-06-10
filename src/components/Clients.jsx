@@ -1,5 +1,6 @@
 import React from "react";
 import ClientsCard from "../utils/ClientsCard";
+import Company from "./Company";
 
 const Clients = () => {
   return (
@@ -14,7 +15,7 @@ const Clients = () => {
             about us!
           </h2>
         </div>
-        <div className="grid grid-cols-3 px-31 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:px-20 md:px-10 xl:px-31 gap-8 mb-8">
           <ClientsCard
             body="“We’re looking for people who share our vision! most of our time used
           to be taken up by most of alternate to help our employees.”"
@@ -28,47 +29,52 @@ const Clients = () => {
           />
           <ClientsCard
             body="“Look for service suppliers that
-comply with this regulation,
-and as we look to create our
-website, this builder is just
-outstanding!”"
+                    comply with this regulation,
+                    and as we look to create our
+                    website, this builder is just
+                    outstanding!”"
             image="images/client1.png"
             title="Mark Zellers"
           />
-          <ClientsCard
-            body="“We’re looking for people who
-share our vision! most of our
-time used to be taken up by
-most of alternate
-administrative work whereas
-now we can focus on building
-out to help our employees.”"
-            image="images/client1.png"
-            title="Mark Zellers"
-          />
+          <div className="xl:-translate-y-13.5 overflow-hidden">
+            <ClientsCard
+              body="“We’re looking for people who
+                    share our vision! most of our
+                    time used to be taken up by
+                    most of alternate
+                    administrative work whereas
+                    now we can focus on building
+                    out to help our employees.”"
+              image="images/client1.png"
+              title="Mark Zellers"
+            />
+          </div>
           <ClientsCard
             body="“This powerful tool eliminates
-the need to leave Salesforce to
-get things done as I can create
-a custom proposal with
-dynamic pricing tables, and get
-approval from my boss all
-within 36 minutes.”"
+                    the need to leave Salesforce to
+                    get things done as I can create
+                    a custom proposal with
+                    dynamic pricing tables, and get
+                    approval from my boss all
+                    within 36 minutes.”"
             image="images/client1.png"
             title="Mark Zellers"
           />
-          <ClientsCard
-            body="“We’re looking for people who
-share our vision! most of our
-time used to be taken up by
-most of alternate
-administrative work whereas
-now we can focus on building
-out to help our employees.”"
-            image="images/client1.png"
-            title="Mark Zellers"
-          />
+          <div className="xl:-translate-y-13.5 overflow-hidden">
+            <ClientsCard
+              body="“We’re looking for people who
+                    share our vision! most of our
+                    time used to be taken up by
+                    most of alternate
+                    administrative work whereas
+                    now we can focus on building
+                    out to help our employees.”"
+              image="images/client1.png"
+              title="Mark Zellers"
+            />
+          </div>
         </div>
+        <Company/>
       </div>
     </section>
   );
