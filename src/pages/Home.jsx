@@ -5,6 +5,7 @@ import Workflow from "../components/Workflow";
 import Solution from "../components/Solution";
 import Plan from "../components/Plan";
 import Clients from "../components/Clients";
+import Questions from "../components/Questions";
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       <Workflow />
       <Solution/>
       <Plan/>
-      <Clients/>
+      <Clients />
+      <Questions/>
     </>
   );
 };
