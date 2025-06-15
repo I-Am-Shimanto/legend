@@ -40,7 +40,6 @@ body {
   left: 0;
   opacity: 20%;
 }
-
 .linear{
   background: linear-gradient(180deg,rgb(24, 67, 75) 100%, rgb(255, 255, 255) 0%);
   z-index: 999;
